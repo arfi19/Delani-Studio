@@ -69,7 +69,27 @@ html{
 #design{
   display: none;
 }
-  
+#form{
+  background-image: url("images/background/c_image.jpg");
+}
+.input{
+  display: inline;
+}
+#form input{
+  width: 37%;
+  background-color: transparent;
+}
+#name{
+  margin-left: 10%;
+  color: white;
+}
+#email{
+  margin: 5%;
+}
+#form textarea{
+  background-color: transparent;
+  color: white;
+}
 
 #product.title, #development.title, #design.title{
   font-size: 20px;
