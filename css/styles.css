@@ -1,4 +1,45 @@
-
-
-
+html{
+  scroll-behavior: smooth;
+}
+.landing{
+  background-image: url('images/backgrounds/s_image.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 25%;
+  padding-bottom: 5%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.landing h1{
+  padding: 3px;
+  margin: 5px;
+  font-size: 45px;
+}
+#logo{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 70px;
+}
+#mouse-click{
+  padding-top: 25px;
+  margin-top: 10%;
+  padding-bottom: 28px;
+  animation: bounce 1.5s infinite;
+}
+.aboutUs{
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 3%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.services{
+  background-image: url("images/backgrounds/s_image.jpg");
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
 
