@@ -47,10 +47,12 @@ html{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
-#whatWeDo{
+
+#whatWeDo .row{
   padding-top: 40px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  display: flex;
 
 }
 .whatWeDo.headings{
