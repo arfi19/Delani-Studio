@@ -79,14 +79,22 @@ html{
   width: 37%;
   background-color: transparent;
 }
-#name{
+#mce-FNAME{
   margin-left: 10%;
   color: white;
+  background-color: transparent;
 }
-#email{
+#mce-LNAME{
+  margin-left: 10%;
+  color: white;
+  background-color: transparent;
+  
+}
+#mce-EMAIL{
   margin: 5%;
+  background-color: transparent;
 }
-#form textarea{
+#mce-MMERGE3{
   background-color: transparent;
   color: white;
 }

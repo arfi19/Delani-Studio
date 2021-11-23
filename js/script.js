@@ -1,6 +1,15 @@
-$(document).ready(function(){
-  $("#development-image").click(function(){
-    $("#development-image").slideDown('1500').hide('1000');
-    $("#development").show('1500');
-  });
+
+$(document).ready(function() {
+  $(".design").click(function() {
+    $("#design, .design").toggle("slow");
+  })
+});
+$("#design").click(function() {
+  $(".design, #design").toggle("slow");
+});
+$(".development").click(function() {
+  $("#development, .development").toggle("slow");
+});
+$("#development").click(function() {
+  $(".development, #development").toggle("slow");
 });
