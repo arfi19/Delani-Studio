@@ -1,15 +1,11 @@
 
+
 $(document).ready(function() {
-  $(".design").click(function() {
-    $("#design, .design").toggle("slow");
+  $("#work1").mouseover(function() {
+    $("overlay").show();
   })
+  .mouseout(function() {
+    $("#overlay").hide()
+  });
 });
-$("#design").click(function() {
-  $(".design, #design").toggle("slow");
-});
-$(".development").click(function() {
-  $("#development, .development").toggle("slow");
-});
-$("#development").click(function() {
-  $(".development, #development").toggle("slow");
-});
+
