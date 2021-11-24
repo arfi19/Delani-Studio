@@ -1,8 +1,11 @@
 
 
 $(document).ready(function() {
-  $(".design").ready(function() {
-    $("#design .design").toggle("slow");
+  $("#work1").mouseover(function() {
+    $("overlay").show();
+  })
+  .mouseout(function() {
+    $("#overlay").hide()
   });
 });
 
