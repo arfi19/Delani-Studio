@@ -23,12 +23,18 @@ html{
   height: 70px;
 }
 #mouse{
-  padding-top: 25px;
-  margin-top: 10%;
-  padding-bottom: 28px;
-  animation: bounce 3s infinite;
+  animation: bounce 2s infinite;
 }
 
+#development{
+  display: none;
+}
+#product{
+  display: none;
+}
+#design{
+  display: none;
+}
 .aboutUs{
   text-align: center;
   padding-top: 6%;
@@ -87,7 +93,8 @@ html{
   
 }
 #mce-EMAIL{
-  margin: 5%;
+  margin-left: 10%;
+  color: white;
   background-color: transparent;
 }
 #mce-MMERGE3{
@@ -103,12 +110,11 @@ html{
   color: black;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   text-align: center;
   font-size: 40px;
   font-family: sans-serif;
 }
-
 button{
   margin-left: 2%;
   padding-bottom: 30px;
